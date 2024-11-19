@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pesan</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Selamat Datang</h1>
+    <button id="openPopup">Klik untuk Membuka Pesan</button>
+  </div>
+
+  <!-- Pop-up Permohonan Maaf -->
+  <div class="popup" id="popup">
+    <div class="popup-content">
+      <h2>Mohon Maaf 😔</h2>
+      <p id="apologyText">Aku minta maaf yah soal notes di bloofy, mau dimaafin kan?</p>
+      <div class="popup-buttons">
+        <button id="acceptPopup">Terima</button>
+        <button id="declinePopup">Tolak</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pop-up Ucapan Terima Kasih -->
+  <div class="popup" id="thankYouPopup">
+    <div class="popup-content">
+      <h2>Terima Kasih! ＼(^o^)／</h2>
+      <p>Yeyy, makasih sudah mau memaafkan 😊</p>
+      <button id="closeThankYouPopup">Tutup</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
